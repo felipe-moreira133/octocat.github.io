@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oferta Especial</title>
+  <title>Adestramento Canino Definitivo</title>
 
   <!-- Script Mundpay -->
   <script src="https://upsell.mundpay.com/script-v2.js" defer async></script>
@@ -24,17 +24,23 @@
     }
 
     h1 {
-      font-size: 42px;
+      font-size: 40px;
       margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #cbd5e1;
     }
 
     .highlight {
       color: #22c55e;
+      font-weight: bold;
     }
 
     .price {
-      font-size: 32px;
-      margin: 20px 0;
+      font-size: 30px;
+      margin: 25px 0;
     }
 
     .old-price {
@@ -53,7 +59,7 @@
       border-radius: 8px;
       text-decoration: none;
       transition: 0.3s;
-      margin-top: 20px;
+      margin-top: 25px;
     }
 
     .btn:hover {
@@ -69,6 +75,13 @@
       box-shadow: 0 0 30px rgba(0,0,0,0.4);
     }
 
+    ul {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+      font-size: 18px;
+    }
+
     footer {
       margin-top: 60px;
       font-size: 14px;
@@ -81,19 +94,29 @@
 
   <div class="container">
 
-    <h1>🔥 Oferta Especial por Tempo Limitado</h1>
+    <h1>🐶 Transforme Seu Cachorro em um Cão Obediente</h1>
 
-    <p>Aprenda a montar seu próprio funil de vendas e faturar todos os dias.</p>
+    <p class="subtitle">
+      Descubra o método simples que já ajudou milhares de donos a
+      <span class="highlight">eliminar latidos excessivos, xixi fora do lugar e destruição de móveis.</span>
+    </p>
+
+    <ul>
+      <li>✔ Como fazer seu cachorro obedecer em 7 dias</li>
+      <li>✔ Técnicas para parar latidos e ansiedade</li>
+      <li>✔ Como ensinar comandos básicos rapidamente</li>
+      <li>✔ Método usado por adestradores profissionais</li>
+    </ul>
 
     <div class="price">
-      <span class="old-price">De R$ 197</span><br>
-      <span class="highlight">Por apenas R$ 97</span>
+      <span class="old-price">De R$ 97</span><br>
+      <span class="highlight">Hoje por apenas R$ 47</span>
     </div>
 
-    <a href="#checkout" class="btn">QUERO APROVEITAR AGORA</a>
+    <a href="#checkout" class="btn">QUERO O EBOOK AGORA</a>
 
     <div class="box" id="checkout">
-      <h2>Finalize sua compra</h2>
+      <h2>Finalize sua compra com segurança</h2>
 
       <!-- Render Mundpay -->
       <div data-mndpay-render="019ca5ef-561e-7166-b040-243293862153" data-env="develop"></div>
@@ -101,7 +124,7 @@
     </div>
 
     <footer>
-      © 2026 - Todos os direitos reservados
+      Garantia de 7 dias ou seu dinheiro de volta.
     </footer>
 
   </div>
