@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espere! Oferta Especial</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 38px;
+      color: #facc15;
+    }
+
+    .price {
+      font-size: 28px;
+      margin: 20px 0;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #94a3b8;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 18px 35px;
+      font-size: 18px;
+      font-weight: bold;
+      background: #22c55e;
+      color: black;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background: #16a34a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>⚠️ Espere! Temos uma condição especial para você!</h1>
+
+    <p>Sabemos que você quer transformar seu cachorro...</p>
+
+    <div class="price">
+      <span class="old-price">De R$ 47</span><br>
+      <strong>Agora por apenas R$ 27</strong>
+    </div>
+
+    <a href="#checkout" class="btn">QUERO APROVEITAR AGORA</a>
+
+    <br><br>
+
+    <a href="https://seusite.com/obrigado.html" style="color:#94a3b8;">
+      Não, quero continuar sem essa oferta
+    </a>
+
+  </div>
+
+</body>
+</html>
