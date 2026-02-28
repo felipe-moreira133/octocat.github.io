@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oferta Confirmada</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #22c55e;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #22c55e;
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 30px;
+    }
+
+    .btn:hover {
+      background: #16a34a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎉 Parabéns!</h1>
+    <p>Sua oferta foi adicionada com sucesso ao seu pedido.</p>
+
+    <p>Você receberá o acesso no seu e-mail após a confirmação do pagamento.</p>
+
+    <a href="https://seusite.com/obrigado.html" class="btn">
+      IR PARA PÁGINA DE OBRIGADO
+    </a>
+  </div>
+
+</body>
+</html>
