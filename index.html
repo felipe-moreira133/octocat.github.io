@@ -75,11 +75,28 @@
       box-shadow: 0 0 30px rgba(0,0,0,0.4);
     }
 
+    /* LISTA AJUSTADA */
     ul {
-      text-align: left;
-      max-width: 600px;
+      list-style: none;
+      padding: 0;
       margin: 30px auto;
+      max-width: 600px;
+      text-align: left;
+    }
+
+    ul li {
       font-size: 18px;
+      margin-bottom: 15px;
+      padding-left: 30px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #22c55e;
+      font-weight: bold;
     }
 
     footer {
@@ -102,10 +119,10 @@
     </p>
 
     <ul>
-      <li>✔ Como fazer seu cachorro obedecer em 7 dias</li>
-      <li>✔ Técnicas para parar latidos e ansiedade</li>
-      <li>✔ Como ensinar comandos básicos rapidamente</li>
-      <li>✔ Método usado por adestradores profissionais</li>
+      <li>Como fazer seu cachorro obedecer em 7 dias</li>
+      <li>Técnicas para parar latidos e ansiedade</li>
+      <li>Como ensinar comandos básicos rapidamente</li>
+      <li>Método usado por adestradores profissionais</li>
     </ul>
 
     <div class="price">
