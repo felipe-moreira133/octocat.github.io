@@ -1,11 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Minha Primeira Página</title>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oferta Especial</title>
+
+  <!-- Script Mundpay -->
+  <script src="https://upsell.mundpay.com/script-v2.js" defer async></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      color: #22c55e;
+    }
+
+    .price {
+      font-size: 32px;
+      margin: 20px 0;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #94a3b8;
+      font-size: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 18px 35px;
+      font-size: 20px;
+      font-weight: bold;
+      background: #22c55e;
+      color: black;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background: #16a34a;
+      transform: scale(1.05);
+    }
+
+    .box {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 12px;
+      margin-top: 40px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Minha primeira página hospedada no GitHub Pages 🚀</p>
+
+  <div class="container">
+
+    <h1>🔥 Oferta Especial por Tempo Limitado</h1>
+
+    <p>Aprenda a montar seu próprio funil de vendas e faturar todos os dias.</p>
+
+    <div class="price">
+      <span class="old-price">De R$ 197</span><br>
+      <span class="highlight">Por apenas R$ 97</span>
+    </div>
+
+    <a href="#checkout" class="btn">QUERO APROVEITAR AGORA</a>
+
+    <div class="box" id="checkout">
+      <h2>Finalize sua compra</h2>
+
+      <!-- Render Mundpay -->
+      <div data-mndpay-render="019ca5ef-561e-7166-b040-243293862153" data-env="develop"></div>
+
+    </div>
+
+    <footer>
+      © 2026 - Todos os direitos reservados
+    </footer>
+
+  </div>
+
 </body>
 </html>
