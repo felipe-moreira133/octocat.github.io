@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adestramento Canino Definitivo</title>
+
+  <!-- Script Mundpay -->
+  <script src="https://upsell.mundpay.com/script-v2.js" defer async></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #cbd5e1;
+    }
+
+    .highlight {
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    .price {
+      font-size: 30px;
+      margin: 25px 0;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #94a3b8;
+      font-size: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 18px 35px;
+      font-size: 20px;
+      font-weight: bold;
+      background: #22c55e;
+      color: black;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+      margin-top: 25px;
+    }
+
+    .btn:hover {
+      background: #16a34a;
+      transform: scale(1.05);
+    }
+
+    .box {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 12px;
+      margin-top: 40px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    }
+
+    /* LISTA AJUSTADA */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 30px auto;
+      max-width: 600px;
+      text-align: left;
+    }
+
+    ul li {
+      font-size: 18px;
+      margin-bottom: 15px;
+      padding-left: 30px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🐶 Transforme Seu Cachorro em um Cão Obediente</h1>
+
+    <p class="subtitle">
+      Descubra o método simples que já ajudou milhares de donos a
+      <span class="highlight">eliminar latidos excessivos, xixi fora do lugar e destruição de móveis.</span>
+    </p>
+
+    <ul>
+      <li>Como fazer seu cachorro obedecer em 7 dias</li>
+      <li>Técnicas para parar latidos e ansiedade</li>
+      <li>Como ensinar comandos básicos rapidamente</li>
+      <li>Método usado por adestradores profissionais</li>
+    </ul>
+
+    <div class="price">
+      <span class="old-price">De R$ 97</span><br>
+      <span class="highlight">Hoje por apenas R$ 47</span>
+    </div>
+
+    <a href="#checkout" class="btn">QUERO O EBOOK AGORA</a>
+
+    <div class="box" id="checkout">
+      <h2>Finalize sua compra com segurança</h2>
+
+      <!-- Render Mundpay -->
+      <div data-mndpay-render="019ca5ef-561e-7166-b040-243293862153" data-env="develop"></div>
+
+    </div>
+
+    <footer>
+      Garantia de 7 dias ou seu dinheiro de volta.
+    </footer>
+
+  </div>
+
+</body>
+</html>
